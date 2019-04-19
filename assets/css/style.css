@@ -1,11 +1,13 @@
 body {
+  width: 100%;
   font-family:'Philosopher', sans-serif;
   font-size: 18px;
   line-height: 34px;
   color:rgb(49, 2, 2);
   background: url("../images/cyclosaBackground.jpg");
   background-repeat: no-repeat;
-  background-size: 1400px 900px;
+  background-size: 100%;
+  
 }
 
 * {
@@ -103,6 +105,7 @@ nav a:first-child {
 /* footer */
 
 footer {
+  
   padding: 30px 0;
   clear: both;
   font-size: 20px;
@@ -111,6 +114,7 @@ footer {
   text-align: center;
   background: rgb(6, 43, 6);
   border-top: 4px solid #07f513;
+  
   height: 50px;
 }
 
